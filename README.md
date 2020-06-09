@@ -83,7 +83,7 @@ Each defined value within a code list has its own Web URI and may have multiling
 For example,
 [gs1:SharpnessOfCheeseCode-EXTRA_SHARP](https://www.gs1.org/voc/SharpnessOfCheeseCode-EXTRA_SHARP) is an individual code value within the [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode) code list.
 
-Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode)
+Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode), the code list to which it belongs.
 
 # Link Types for use with resolvers for GS1 Digital Link URIs
 The GS1 Web vocabulary recently introduced a group of additional properties that connect a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link) URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
