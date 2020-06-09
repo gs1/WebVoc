@@ -74,7 +74,7 @@ For example,
 Each defined value within a code list has its own Web URI and may have multilingual human labels and descriptions.  Membership of a particular code list is indicated via rdf:type
 
 For example,
-[gs1:SharpnessOfCheeseCode-EXTRA_SHARP] is an individual code value within the [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode) code list.
+[gs1:SharpnessOfCheeseCode-EXTRA_SHARP](https://www.gs1.org/voc/SharpnessOfCheeseCode-EXTRA_SHARP) is an individual code value within the [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode) code list.
 
 Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode)
 
