@@ -1,5 +1,4 @@
-# WebVoc
-GS1 Web vocabulary development site
+# GS1 Web Vocabulary - development site
 
 The current official version of the GS1 Web vocabualary is published at https://www.gs1.org/voc
 
