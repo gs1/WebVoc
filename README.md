@@ -46,6 +46,8 @@ For example,
 
 By defining subclasses, we can 'attach' more specialised properties that are relevant to the subclass but not generally relevant to all members of the parent class / superclass.
 
+[Browse all classes within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=classes)
+
 # Properties
 Each property has an expected value type (indicated via rdfs:range)
 
@@ -61,6 +63,8 @@ For example,
 
 Formally, the GS1 Web vocabulary expresses that [gs1:isSeedless](https://www.gs1.org/voc/isSeedless) has an rdfs:domain of [gs1:FruitsVegetables](https://www.gs1.org/voc/FruitsVegetables).
 
+[Browse all properties within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=properties)
+
 # Code Lists
 The GS1 Web vocabulary defines a large number of code lists for enumerated values.
 Code lists are useful because a globally defined URI can be used for each permitted value.  Each of these URIs may have multilingual labels and descriptions in different human languages but we agree to use the global URI to express the value, to avoid the need to translate 'free text' values expressed in different human languages when exchanging data globally using such code lists.
@@ -69,6 +73,9 @@ Each code list is modelled as a class (rdfs:Class, owl:Class) and as a subclass 
 
 For example,
 [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode) is a subclass of [gs1:TypeCode](https://www.gs1.org/voc/TypeCode)
+
+[Browse all code lists within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=typecodes)
+
 
 # Code list values
 Each defined value within a code list has its own Web URI and may have multilingual human labels and descriptions.  Membership of a particular code list is indicated via rdf:type
@@ -94,5 +101,6 @@ For example,
 
 [gs1:instructions](https://www.gs1.org/voc/instructions) is a typed link that is used to link to instructions related to the product, such as assembly instructions, usage tips etc.
 
+[Browse all link types defined within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=linktypes)
 
 
