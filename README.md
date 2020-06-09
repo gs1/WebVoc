@@ -37,8 +37,11 @@ For example, a gs1:QuantitativeValue  or schema:QuantitativeValue express both a
 Similarly, gs1:CertificationDetails is used to group interdependent properties such as gs1:certificationAgency , gs1:certificationStandard and gs1:certificationValue so that when a product has more than one certification, there is no ambiguity about which standard was evaluated by which agency - or which value was obtained for each standard.
 
 Some classes are defined as subclasses of other classes.
+
 For example, 
+
 [gs1:FoodBeverageTobaccoProduct](https://www.gs1.org/voc/FoodBeverageTobaccoProduct) is a subclass of [gs1:Product](https://www.gs1.org/voc/Product)
+
 [gs1:FruitsVegetables](https://www.gs1.org/voc/FruitsVegetables) is a subclass of [gs1:FoodBeverageTobaccoProduct](https://www.gs1.org/voc/FoodBeverageTobaccoProduct)
 
 By defining subclasses, we can 'attach' more specialised properties that are relevant to the subclass but not generally relevant to all members of the parent class / superclass.
