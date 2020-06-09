@@ -24,8 +24,8 @@ Most terms within the GS1 Web vocabulary can usually be classified as one of the
 * [Classes](#classes)
 * [Properties](#properties)
 * [Code Lists](#code-lists)
-* Defined values within Code Lists
-* Link Types for use with resolvers for GS1 Digital Link URIs
+* [Defined values within Code Lists](#code-list-values)
+* [Link Types for use with resolvers for GS1 Digital Link URIs](#link-types-for-use-with-resolvers-for-gs1-digital-link-uris)
 
 
 ## Classes
