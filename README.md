@@ -21,14 +21,14 @@ The GS1 Web vocabulary also defines subclasses of [gs1:Product](https://www.gs1.
 
 Most terms within the GS1 Web vocabulary can usually be classified as one of the following:
 
-* Classes
-* Properties
-* Code Lists
+* [Classes](#classes)
+* [Properties](#properties)
+* [Code Lists](#code-lists)
 * Defined values within Code Lists
 * Link Types for use with resolvers for GS1 Digital Link URIs
 
 
-## Classes
+##Classes
 
 One use of a class (rdfs:Class, owl:Class) is to express an entity such as a product, organization, place, postal address.
 
@@ -50,7 +50,7 @@ By defining subclasses, we can 'attach' more specialised properties that are rel
 
 [Browse all classes within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=classes)
 
-## Properties
+##Properties
 Each property has an expected value type (indicated via rdfs:range)
 
 Each property also has an 'attachment point' (indicated via rdfs:domain)
@@ -67,7 +67,7 @@ Formally, the GS1 Web vocabulary expresses that [gs1:isSeedless](https://www.gs1
 
 [Browse all properties within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=properties)
 
-## Code Lists
+##Code Lists
 The GS1 Web vocabulary defines a large number of code lists for enumerated values.
 Code lists are useful because a globally defined URI can be used for each permitted value.  Each of these URIs may have multilingual labels and descriptions in different human languages but we agree to use the global URI to express the value, to avoid the need to translate 'free text' values expressed in different human languages when exchanging data globally using such code lists.
 
@@ -79,7 +79,7 @@ For example,
 [Browse all code lists within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=typecodes)
 
 
-## Code list values
+##Code list values
 Each defined value within a code list has its own Web URI and may have multilingual human labels and descriptions.  Membership of a particular code list is indicated via rdf:type
 
 For example,
@@ -87,7 +87,7 @@ For example,
 
 Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode), the code list to which it belongs.
 
-## Link Types for use with resolvers for GS1 Digital Link URIs
+##Link Types for use with resolvers for GS1 Digital Link URIs
 The GS1 Web vocabulary recently introduced a group of additional properties that connect a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link) URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
 
 Each link type property expresses a distinct kind of information resource found at the target resource URL.  
