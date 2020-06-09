@@ -86,11 +86,11 @@ For example,
 Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode)
 
 # Link Types for use with resolvers for GS1 Digital Link URIs
-The GS1 Web vocabulary recently introduced a group of additional properties that connect a GS1 Digital Link URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
+The GS1 Web vocabulary recently introduced a group of additional properties that connect a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link) URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
 
 Each link type property expresses a distinct kind of information resource found at the target resource URL.  
 
-In this way, a Web request to a resolver for GS1 Digital Link URI can specify a particular kind of information resource that is desired, e.g. 'give me the instruction manual'.  The Link Type is typically expressed as a compact URI expression (CURIE) within the URI query string, as the value of the special 'linkType' key.  It is also expressed in the linkset of results returned by a resolver conforming to the GS1 Digital Link standard v1.2.
+In this way, a Web request to a resolver for [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link) URI can specify a particular kind of information resource that is desired, e.g. 'give me the instruction manual'.  The Link Type is typically expressed as a compact URI expression (CURIE) within the URI query string, as the value of the special 'linkType' key.  It is also expressed in the linkset of results returned by a resolver conforming to the [GS1 Digital Link standard](https://www.gs1.org/standards/gs1-digital-link).
 
 The GS1 Web vocabulary defines one abstract property, [gs1:linkType](https://www.gs1.org/voc/linkType).  
 
