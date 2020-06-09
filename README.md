@@ -12,9 +12,9 @@ The GS1 Web vocabulary is released under an Apache 2.0 licence.  A further licen
 
 The GS1 Web vocabulary is an external extension to schema.org that allows further details about products and assets to be expressed using Linked Data technology.
 
-gs1:Product is semantically equivalent to schema:Product
+[gs1:Product](https://www.gs1.org/voc/Product) is semantically equivalent to [schema:Product](http://schema.org/Product)
 
-The GS1 Web vocabulary also defines subclasses of gs1:Product
+The GS1 Web vocabulary also defines subclasses of [gs1:Product](https://www.gs1.org/voc/Product)
 
 
 
@@ -38,8 +38,8 @@ Similarly, gs1:CertificationDetails is used to group interdependent properties s
 
 Some classes are defined as subclasses of other classes.
 For example, 
-gs1:FoodBeverageTobaccoProduct is a subclass of gs1:Product
-gs1:FruitsVegetables  is a subclass of gs1:FoodBeverageTobaccoProduct
+[gs1:FoodBeverageTobaccoProduct](https://www.gs1.org/voc/FoodBeverageTobaccoProduct) is a subclass of [gs1:Product](https://www.gs1.org/voc/Product)
+[gs1:FruitsVegetables](https://www.gs1.org/voc/FruitsVegetables) is a subclass of [gs1:FoodBeverageTobaccoProduct](https://www.gs1.org/voc/FoodBeverageTobaccoProduct)
 
 By defining subclasses, we can 'attach' more specialised properties that are relevant to the subclass but not generally relevant to all members of the parent class / superclass.
 
@@ -48,30 +48,32 @@ Each property has an expected value type (indicated via rdfs:range)
 
 Each property also has an 'attachment point' (indicated via rdfs:domain)
 
-A property that could apply to all kinds of products will generally have an rdfs:domain of gs1:Product / schema:Product
+A property that could apply to all kinds of products will generally have an rdfs:domain of [gs1:Product](https://www.gs1.org/voc/Product) / [schema:Product](http://schema.org/Product)
 
-Other properties that are only really relevant to a more specialised category of products will have an rdfs:domain that is a subclass of gs1:Product or even a subclass of a subclass of gs1:Product
+Other properties that are only really relevant to a more specialised category of products will have an rdfs:domain that is a subclass of [gs1:Product](https://www.gs1.org/voc/Product) (such as [gs1:WearableProduct](https://www.gs1.org/voc/WearableProduct) ) or even a subclass of a subclass of [gs1:Product](https://www.gs1.org/voc/Product) (such as [gs1:Footwear](https://www.gs1.org/voc/Footwear) )
 
 For example, 
 
-gs1:isSeedless is a property of gs1:FruitsVegetables - and it probably has little relevance to any other kind of product.
+[gs1:isSeedless](https://www.gs1.org/voc/isSeedless) is a property of [gs1:FruitsVegetables](https://www.gs1.org/voc/FruitsVegetables) - and it probably has little relevance to any other kind of product.
 
-Formally, the GS1 Web vocabulary expresses that gs1:isSeedless has an rdfs:domain of gs1:FruitsVegetables.
+Formally, the GS1 Web vocabulary expresses that [gs1:isSeedless](https://www.gs1.org/voc/isSeedless) has an rdfs:domain of [gs1:FruitsVegetables](https://www.gs1.org/voc/FruitsVegetables).
 
 # Code Lists
 The GS1 Web vocabulary defines a large number of code lists for enumerated values.
 Code lists are useful because a globally defined URI can be used for each permitted value.  Each of these URIs may have multilingual labels and descriptions in different human languages but we agree to use the global URI to express the value, to avoid the need to translate 'free text' values expressed in different human languages when exchanging data globally using such code lists.
 
-Each code list is modelled as a class (rdfs:Class, owl:Class) and as a subclass of gs1:TypeCode, the abstract superclass for all GS1 Code Lists within the GS1 Web vocabulary.
+Each code list is modelled as a class (rdfs:Class, owl:Class) and as a subclass of [gs1:TypeCode](https://www.gs1.org/voc/TypeCode), the abstract superclass for all GS1 Code Lists within the GS1 Web vocabulary.
 
 For example,
-gs1:SharpnessOfCheeseCode is a subclass of gs1:TypeCode
+[gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode) is a subclass of [gs1:TypeCode](https://www.gs1.org/voc/TypeCode)
 
 # Code list values
 Each defined value within a code list has its own Web URI and may have multilingual human labels and descriptions.  Membership of a particular code list is indicated via rdf:type
 
 For example,
-gs1:SharpnessOfCheeseCode-EXTRA_SHARP is an individual whose rdf:type is gs1:SharpnessOfCheeseCode
+[gs1:SharpnessOfCheeseCode-EXTRA_SHARP] is an individual code value within the [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode) code list.
+
+Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode)
 
 # Link Types for use with resolvers for GS1 Digital Link URIs
 The GS1 Web vocabulary recently introduced a group of additional properties that connect a GS1 Digital Link URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
@@ -80,14 +82,14 @@ Each link type property expresses a distinct kind of information resource found 
 
 In this way, a Web request to a resolver for GS1 Digital Link URI can specify a particular kind of information resource that is desired, e.g. 'give me the instruction manual'.  The Link Type is typically expressed as a compact URI expression (CURIE) within the URI query string, as the value of the special 'linkType' key.  It is also expressed in the linkset of results returned by a resolver conforming to the GS1 Digital Link standard v1.2.
 
-The GS1 Web vocabulary defines one abstract property, gs1:linkType.  
+The GS1 Web vocabulary defines one abstract property, [gs1:linkType](https://www.gs1.org/voc/linkType).  
 
-All specific link type values are defined as a subproperty of gs1:linkType.
+All specific link type values are defined as a subproperty of [gs1:linkType](https://www.gs1.org/voc/linkType).
 
 For example,
-gs1:instructions is a rdfs:subPropertyOf  gs1:linkType  
+[gs1:instructions](https://www.gs1.org/voc/instructions) is a subproperty of [gs1:linkType](https://www.gs1.org/voc/linkType)  
 
-gs1:instructions is a typed link that is used to link to instructions related to the item, such as assembly instructions, usage tips etc.
+[gs1:instructions](https://www.gs1.org/voc/instructions) is a typed link that is used to link to instructions related to the product, such as assembly instructions, usage tips etc.
 
 
 
