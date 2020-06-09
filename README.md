@@ -33,7 +33,9 @@ Most terms within the GS1 Web vocabulary can usually be classified as one of the
 One use of a class (rdfs:Class, owl:Class) is to express an entity such as a product, organization, place, postal address.
 
 Another use of a class is to provide a repeatable data structure as a container for a number of interdependent properties.
+
 For example, a gs1:QuantitativeValue  or schema:QuantitativeValue express both a numeric value and a code for a unit of measure.  
+
 Similarly, gs1:CertificationDetails is used to group interdependent properties such as gs1:certificationAgency , gs1:certificationStandard and gs1:certificationValue so that when a product has more than one certification, there is no ambiguity about which standard was evaluated by which agency - or which value was obtained for each standard.
 
 Some classes are defined as subclasses of other classes.
