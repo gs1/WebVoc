@@ -5,7 +5,7 @@ The current official version of the GS1 Web vocabualary is published at https://
 
 This repository is intended to encourage suggestions for improvements to the GS1 Web vocabulary.
 
-The GS1 Web vocabulary is provided in two formats - Turtle and JSON-LD.
+The GS1 Web vocabulary is provided in two formats - [Turtle](https://github.com/gs1/WebVoc/blob/master/gs1Voc_v1_3.ttl) and [JSON-LD](https://github.com/gs1/WebVoc/blob/master/gs1Voc_v1_3.jsonld).
 A browsable user interface will also be provided via the GitHub.io page for this repository, similar to the Web user interface provided at https://www.gs1.org/voc but using modern Vue.js code, still driven by the JSON-LD file.
 
 The GS1 Web vocabulary is released under an Apache 2.0 licence.  A further licence statement is provided within the GS1 Web vocabulary files.
