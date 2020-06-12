@@ -2,7 +2,7 @@
 
 The current official version of the GS1 Web vocabualary is published at https://www.gs1.org/voc
 
-This repository is intended to encourage suggestions for improvements to the GS1 Web vocabulary.
+This repository is intended to encourage suggestions for improvements to the GS1 Web vocabulary. Please note the license terms (Apache 2.0).
 
 The GS1 Web vocabulary is provided in two machine-interpretable formats - [Turtle](https://github.com/gs1/WebVoc/blob/master/gs1Voc_v1_3.ttl) and [JSON-LD](https://github.com/gs1/WebVoc/blob/master/gs1Voc_v1_3.jsonld).
 
