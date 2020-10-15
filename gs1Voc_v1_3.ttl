@@ -5397,6 +5397,22 @@ gs1:dailyValueIntakePercent a rdf:Property,
     rdfs:isDefinedBy gs1: ;
     rdfs:range xsd:float .
 
+gs1:defaultLink a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "Default link"@en ;
+    rdfs:comment "The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match."@en ;
+        rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType ;
+    vs:term_status "proposed" .
+
+gs1:defaultLink* a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "Default link*"@en ;
+    rdfs:comment "A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link."@en ;
+        rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType  ;
+    vs:term_status "proposed" .
+
 gs1:department a rdf:Property,
         owl:DatatypeProperty ;
     rdfs:label "Department"@en ;
