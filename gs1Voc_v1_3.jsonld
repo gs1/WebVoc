@@ -14065,6 +14065,50 @@
             }
         },
         {
+            "@id": "gs1:defaultLink",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Default link"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+        {
+            "@id": "gs1:defaultLink*",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Default link*"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+        {
             "@id": "gs1:department",
             "@type": [
                 "owl:DatatypeProperty",
