@@ -22237,7 +22237,7 @@
             ],
             "rdfs:label": {
                 "@language": "en",
-                "@value": "Related  video"
+                "@value": "Related video"
             },
             "rdfs:range": {
                 "@id": "xsd:anyURI"
