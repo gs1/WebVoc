@@ -8821,7 +8821,7 @@ gs1:disassemblyInfo a rdf:Property, owl:ObjectProperty ;
 
 gs1:recyclingInfo a rdf:Property, owl:ObjectProperty ;
     rdfs:label "Product recyling"@en ;
-    rdfs:comment "A  link to the instructions for recycling a product."@en ;
+    rdfs:comment "A link to the instructions for recycling a product."@en ;
     rdfs:domain schema:Product, gs1:Product ;
     rdfs:range xsd:anyURI ;
     rdfs:subPropertyOf gs1:linkType .
