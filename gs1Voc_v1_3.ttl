@@ -8784,3 +8784,44 @@ _:f456f64cd8be44999a44a7852fd54b19eb1 a owl:Class ;
 _:f456f64cd8be44999a44a7852fd54b19eb2 a owl:Class ;
     owl:unionOf _:f456f64cd8be44999a44a7852fd54b19eb4 .
 
+gs1:productPassport a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product Passport"@en ;
+    rdfs:comment "A link to the product passport which provides information on a product’s origin, durability, composition, reuse, repair and dismantling possibilities, and end-of-life handling."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:handlingEndOfLife a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product EOL handling"@en ;
+    rdfs:comment "A link to the instructions for end-of-life handling as required by a product passport. The information will include instructions for reuse, repair, disassembly and recycling."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:reuseInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product re-use"@en ;
+    rdfs:comment "A link to the information on how to re-use a product when it changes from one user to the other (like how to deal with exiting certifications or warrantees, quality control instructions)"@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:repairInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product repair"@en ;
+    rdfs:comment "A link to the instructions for the repair of a product."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:disassemblyInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product disassembly"@en ;
+    rdfs:comment "A link to the instructions for dismantling/disassembly."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:recyclingInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product recyling"@en ;
+    rdfs:comment "A  link to the instructions for recycling a product."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
