@@ -5405,7 +5405,7 @@ gs1:defaultLink a rdf:Property,
     rdfs:subPropertyOf gs1:linkType ;
     vs:term_status "proposed" .
 
-gs1:defaultLink* a rdf:Property,
+gs1:defaultLink%2A a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "Default link*"@en ;
     rdfs:comment "A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link."@en ;
