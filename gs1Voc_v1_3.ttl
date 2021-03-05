@@ -45,7 +45,7 @@ gs1: a voaf:Vocabulary,
     <http://purl.org/dc/elements/1.1/description:> "The GS1 RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language. The vocabulary builds on and refers to schema.org where appropriate."@en ;
     <http://purl.org/dc/elements/1.1/identifier:> "GS1 Vocabulary" ;
     <http://purl.org/dc/elements/1.1/issued:> "2017-11-20"^^xsd:date ;
-    dc11:lastModified "2020-02-05"^^xsd:date ;
+    dc11:lastModified "2020-03-05"^^xsd:date ;
     dc11:title "GS1 Vocabulary" ;
     vann: gs1:,
         "gs1" ;
