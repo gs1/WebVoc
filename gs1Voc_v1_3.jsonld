@@ -14080,7 +14080,7 @@
 			"sw:term_status": "proposed"
 		},
 		{
-			"@id": "gs1:defaultLink*",
+			"@id": "gs1:defaultLinkMulti",
 			"@type": [
 				"rdf:Property",
 				"owl:ObjectProperty"
@@ -14091,7 +14091,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Default link*"
+				"@value": "Default linkMulti"
 			},
 			"rdfs:range": {
 				"@id": "xsd:anyURI"
@@ -14101,6 +14101,44 @@
 			},
 			"sw:term_status": "proposed"
 		},
+   	  {
+    "@id": "https://gs1.org/voc/defaultLink%2A",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Originally proposed as the term for defaultLinkMulti. Do not use."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Default link*"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://gs1.org/voc/linkType"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@value": "withdrawn"
+      }
+    ]
+  },
+   
+		   
+		   
+		   
 		{
 			"@id": "gs1:department",
 			"@type": [
