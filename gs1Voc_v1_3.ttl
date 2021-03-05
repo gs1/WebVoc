@@ -5405,13 +5405,20 @@ gs1:defaultLink a rdf:Property,
     rdfs:subPropertyOf gs1:linkType ;
     vs:term_status "proposed" .
 
-gs1:defaultLink%2A a rdf:Property,
+gs1:defaultLinkMulti a rdf:Property,
         owl:ObjectProperty ;
-    rdfs:label "Default link*"@en ;
+    rdfs:label "Default linkMulti"@en ;
     rdfs:comment "A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link."@en ;
         rdfs:range xsd:anyURI ;
     rdfs:subPropertyOf gs1:linkType  ;
     vs:term_status "proposed" .
+
+gs1:defaultLink%2A a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Default link*"@en ;
+    rdfs:comment "Originally proposed as the term for defaultLinkMulti. Do not use."@en ;
+        rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType  ;
+    vs:term_status "withdrawn" .
 
 gs1:department a rdf:Property,
         owl:DatatypeProperty ;
