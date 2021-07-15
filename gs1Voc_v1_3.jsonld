@@ -14135,10 +14135,10 @@
       }
     ]
   },
-   
-		   
-		   
-		   
+
+
+
+
 		{
 			"@id": "gs1:department",
 			"@type": [
@@ -22724,6 +22724,32 @@
 			"http://www.w3.org/2000/01/rdf-schema#label": [{
 				"@language": "en",
 				"@value": "Product EOL handling"
+			}],
+			"http://www.w3.org/2000/01/rdf-schema#range": [{
+				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			}],
+			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
+				"@id": "https://gs1.org/voc/linkType"
+			}]
+		},
+
+		{
+			"@id": "https://gs1.org/voc/registerEntry",
+			"@type": [
+				"http://www.w3.org/2002/07/owl#ObjectProperty",
+				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+			],
+			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+				"@language": "en",
+				"@value": "A link to an entry in a register, such as a business register or register of locations. Such registers may provide alternative identifiers, such as official company numbers, LEIs, other location identifiers etc."
+			}],
+			"http://www.w3.org/2000/01/rdf-schema#domain": [{
+					"@id": "http://www.w3.org/2002/07/owl#Thing"
+				}
+			],
+			"http://www.w3.org/2000/01/rdf-schema#label": [{
+				"@language": "en",
+				"@value": "Entry in a register"
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#range": [{
 				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
