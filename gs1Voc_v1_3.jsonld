@@ -14129,11 +14129,7 @@
         "@id": "https://gs1.org/voc/linkType"
       }
     ],
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
-      {
-        "@value": "withdrawn"
-      }
-    ]
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": "withdrawn"
   },
 
 
