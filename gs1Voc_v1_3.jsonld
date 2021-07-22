@@ -14077,7 +14077,7 @@
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
 			},
-			"sw:term_status": "proposed"
+			"sw:term_status": "stable"
 		},
 		{
 			"@id": "gs1:defaultLinkMulti",
@@ -14099,7 +14099,7 @@
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
 			},
-			"sw:term_status": "proposed"
+			"sw:term_status": "stable"
 		},
    	  {
     "@id": "https://gs1.org/voc/defaultLink%2A",
