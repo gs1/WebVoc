@@ -21545,7 +21545,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21574,7 +21575,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21603,7 +21605,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21632,7 +21635,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21661,7 +21665,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21690,7 +21695,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21719,7 +21725,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21748,7 +21755,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21777,7 +21785,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21806,7 +21815,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21835,7 +21845,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21864,7 +21875,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21893,7 +21905,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21922,7 +21935,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21951,7 +21965,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -21980,7 +21995,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22009,7 +22025,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22038,7 +22055,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22067,7 +22085,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22096,7 +22115,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22125,7 +22145,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22154,7 +22175,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22183,7 +22205,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22212,7 +22235,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22241,7 +22265,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22270,7 +22295,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22299,7 +22325,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22328,7 +22355,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22357,7 +22385,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22386,7 +22415,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22415,7 +22445,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22444,7 +22475,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22473,7 +22505,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22502,7 +22535,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22531,7 +22565,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22560,7 +22595,8 @@
 			},
 			"rdfs:subPropertyOf": {
 				"@id": "gs1:linkType"
-			}
+			},
+			"sw:term_status": "stable"
 		},
 
 		{
@@ -22589,7 +22625,8 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
 		{
 			"@id": "https://gs1.org/voc/disassemblyInfo",
@@ -22617,7 +22654,8 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
 		{
 			"@id": "https://gs1.org/voc/repairInfo",
@@ -22645,7 +22683,8 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
 		{
 			"@id": "https://gs1.org/voc/recyclingInfo",
@@ -22673,7 +22712,8 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
 		{
 			"@id": "https://gs1.org/voc/reuseInfo",
@@ -22701,7 +22741,8 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
 
 		{
@@ -22730,11 +22771,12 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
 
 		{
-			"@id": "https://gs1.org/voc/registerEntry",
+			"@id": "https://gs1.org/voc/registryEntry",
 			"@type": [
 				"http://www.w3.org/2002/07/owl#ObjectProperty",
 				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -22756,9 +22798,9 @@
 			}],
 			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
 				"@id": "https://gs1.org/voc/linkType"
-			}]
+			}],
+			"sw:term_status": "proposed"
 		},
-
 		{
 			"@id": "gs1:bestBeforeDate",
 			"@type": [
