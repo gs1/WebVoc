@@ -21526,10 +21526,7 @@
 				"@value": "A link to ideas for using the product, particularly with children."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21556,10 +21553,7 @@
 				"@value": "A link to a description of the allergens in the product."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21586,10 +21580,7 @@
 				"@value": "A link to a brand presence aimed at clinical professionals."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21616,10 +21607,7 @@
 				"@value": "A link to a brand presence aimed at patients."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21646,10 +21634,7 @@
 				"@value": "A link to certification information about the product."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21676,10 +21661,7 @@
 				"@value": "A link to information about safe handling and storage of the product."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21706,10 +21688,7 @@
 				"@value": "A link to an EPCIS repository of visibility event data."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21736,10 +21715,7 @@
 				"@value": "A link to an electronic patient information leaflet."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21766,10 +21742,7 @@
 				"@value": "A link to a set of frequently asked questions."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21796,10 +21769,7 @@
 				"@value": "Used when one resolver redirects all request URIs that match a given pattern without further processing, such as from GS1 to a brand-operated service. See section 7.7.1 of the Digital Link standard, version 1.1. "
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21826,10 +21796,7 @@
 				"@value": "A link to a list of retailers for this item"
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21856,10 +21823,7 @@
 				"@value": "A link to facts about the product's ingredients."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21886,10 +21850,7 @@
 				"@value": "A link to instructions related to the item, such as assembly instructions, usage tips etc."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21916,10 +21877,7 @@
 				"@value": "A link through which a review can be added."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21946,10 +21904,7 @@
 				"@value": "A link to a source of structured master data for the entity. This is typically for B2B applications."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -21976,10 +21931,7 @@
 				"@value": "A link to nutritional facts about the product."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22006,10 +21958,7 @@
 				"@value": "A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22026,34 +21975,31 @@
 		},
 
 		{
-			"@id": "gs1:productSustainabilityInfo",
-			"@type": [
-				"rdf:Property",
-				"owl:ObjectProperty"
-			],
-			"rdfs:comment": {
-				"@language": "en",
-				"@value": "A link to information about the product's sustainability of manufacture, recycling information etc."
-			},
+            "@id": "gs1:productSustainabilityInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This term has been deprecated. Please use gs1:sustainabilityInfo instead."
+            },
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
-			"rdfs:label": {
-				"@language": "en",
-				"@value": "Sustainability and recycling"
-			},
-			"rdfs:range": {
-				"@id": "xsd:anyURI"
-			},
-			"rdfs:subPropertyOf": {
-				"@id": "gs1:linkType"
-			},
-			"sw:term_status": "stable"
-		},
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Sustainability and recycling (deprecated)"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "deprecated"
+        },
 
 		{
 			"@id": "gs1:promotion",
@@ -22066,10 +22012,7 @@
 				"@value": "A link to a promotion for the product."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22096,10 +22039,7 @@
 				"@value": "A link to information about where supplies or accessories for the item can be purchased or ordered."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22126,10 +22066,7 @@
 				"@value": "A link to a description of the key features needed to be understood to begin using the item."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22156,10 +22093,7 @@
 				"@value": "A link to information about whether the product has been recalled or not, typically an API."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22186,10 +22120,7 @@
 				"@value": "A link to a recipe website for the product."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22216,10 +22147,7 @@
 				"@value": "A link to an entry point for registering ownership of a product including for warranty purposes."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22246,10 +22174,7 @@
 				"@value": "A link to any video, or document that has an embedded video, that describes or relates to the identified item in some way."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22276,10 +22201,7 @@
 				"@value": "A link to reviews of the product or service."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22306,10 +22228,7 @@
 				"@value": "A link to safety information about the item"
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22336,10 +22255,7 @@
 				"@value": "A link to service or maintenance instructions for the item."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22366,10 +22282,7 @@
 				"@value": "A link to the product's SmartLabel page."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22396,10 +22309,7 @@
 				"@value": "A link to Summary Product Characteristics. To be used specifically when linking to information for healthcare professionals."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22426,10 +22336,7 @@
 				"@value": "A link to a social media channel. The title will typically be replaced by the name of the channel."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22456,10 +22363,7 @@
 				"@value": "A link to a source of support such as a helpdesk, chat support, email etc."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22486,10 +22390,7 @@
 				"@value": "A link to traceability information about the product (includes track & trace)."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22516,10 +22417,7 @@
 				"@value": "A link to a tutorial or set of tutorials, such as online classes, how-to videos etc."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22546,10 +22444,7 @@
 				"@value": "A link to a GS1 Lightweight Messaging Service for verifying the status of a product and its identifier . "
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22576,10 +22471,7 @@
 				"@value": "A link to a description of all the individual items in a packaged item."
 			},
 			"rdfs:domain": [{
-					"@id": "schema:Product"
-				},
-				{
-					"@id": "gs1:Product"
+					"@id": "owl:Thing"
 				}
 			],
 			"rdfs:label": {
@@ -22595,205 +22487,564 @@
 			"sw:term_status": "stable"
 		},
 
+        {
+            "@id": "gs1:sustainabilityInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to information relating to sustainability and recycling requirements or processes."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Sustainability and recycling"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+        {
+            "@id": "gs1:locationInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo"
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Location information"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:logisticsInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to B2B logistics information related to a physical location."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Logistics information"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:careersInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to information about jobs, careers, or other employment opportunities associated to an organisation or location."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Careers information"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:eventsInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to event details.  For a page specifically for scheduling a reservation or booking an appointment, see gs1:scheduleTime."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Events information"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:menuInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to menu details. This may include food menus, services, or other offerings provided by an organisation or at a location.  For details specific to allergens only, see gs1:allergenInfo .  For details specific to nutrition information only, see gs1:nutritionalInfo .  For details specific to ingredients only, see gs1:ingredientsInfo ."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Menu information"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:scheduleTime",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to a site that offers information on scheduling, appointments, or reservations. This may or may not allow the user to book the reservation."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Scheduling/Reservation"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:paymentLink",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to a place where payments details are provided and/or payments can be made by the user."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Make Payment"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:userAgreement",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to an agreement or waiver."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Sign waiver/agreement/document"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:statisticInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to information about statistics regarding an organisation, location, or other entity."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Statistics"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:openingHoursInfo",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to details on hours of operation."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Opening hours information"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:homepage",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to general information about an organisation or brand. Typically the homepage of an organisation's website. It may include links to further information such as certifications, careers, payments, reservations, etc."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Organisation Information Page"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+        {
+            "@id": "gs1:registryEntry",
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A link to an entry in a register, such as a business register or register of locations. Such registers may act as alternative identifiers, such as official company numbers, LEIs, other location identifiers etc."
+            },
+            "rdfs:domain": [
+                {
+                    "@id": "owl:Thing"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Entry in a register"
+            },
+            "rdfs:range": {
+                "@id": "xsd:anyURI"
+            },
+            "rdfs:subPropertyOf": {
+                "@id": "gs1:linkType"
+            },
+            "sw:term_status": "proposed"
+        },
+
+
+
 		{
-			"@id": "https://gs1.org/voc/productPassport",
+			"@id": "gs1:productPassport",
 			"@type": [
-				"http://www.w3.org/2002/07/owl#ObjectProperty",
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+				"owl:ObjectProperty",
+				"rdf:Property"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to the product passport which provides information on a product’s origin, durability, composition, reuse, repair and dismantling possibilities, and end-of-life handling."
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "https://gs1.org/voc/Product"
-				},
-				{
-					"@id": "http://schema.org/Product"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Product Passport"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
 		{
-			"@id": "https://gs1.org/voc/disassemblyInfo",
+			"@id": "gs1:disassemblyInfo",
 			"@type": [
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-				"http://www.w3.org/2002/07/owl#ObjectProperty"
+				"rdf:Property",
+				"owl:ObjectProperty"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to the instructions for dismantling/disassembly."
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "http://schema.org/Product"
-				},
-				{
-					"@id": "https://gs1.org/voc/Product"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Product disassembly"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
 		{
-			"@id": "https://gs1.org/voc/repairInfo",
+			"@id": "gs1:repairInfo",
 			"@type": [
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-				"http://www.w3.org/2002/07/owl#ObjectProperty"
+				"rdf:Property",
+				"owl:ObjectProperty"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to the instructions for the repair of a product."
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "http://schema.org/Product"
-				},
-				{
-					"@id": "https://gs1.org/voc/Product"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Product repair"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
 		{
-			"@id": "https://gs1.org/voc/recyclingInfo",
+			"@id": "gs1:recyclingInfo",
 			"@type": [
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-				"http://www.w3.org/2002/07/owl#ObjectProperty"
+				"rdf:Property",
+				"owl:ObjectProperty"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to the instructions for recycling a product."
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "https://gs1.org/voc/Product"
-				},
-				{
-					"@id": "http://schema.org/Product"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Product recyling"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
 		{
-			"@id": "https://gs1.org/voc/reuseInfo",
+			"@id": "gs1:reuseInfo",
 			"@type": [
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-				"http://www.w3.org/2002/07/owl#ObjectProperty"
+				"rdf:Property",
+				"owl:ObjectProperty"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to the information on how to re-use a product when it changes from one user to the other (like how to deal with exiting certifications or warrantees, quality control instructions)"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "http://schema.org/Product"
-				},
-				{
-					"@id": "https://gs1.org/voc/Product"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Product re-use"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
 
 		{
-			"@id": "https://gs1.org/voc/handlingEndOfLife",
+			"@id": "gs1:handlingEndOfLife",
 			"@type": [
-				"http://www.w3.org/2002/07/owl#ObjectProperty",
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+				"owl:ObjectProperty",
+				"rdf:Property"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to the instructions for end-of-life handling as required by a product passport. The information will include instructions for reuse, repair, disassembly and recycling."
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "https://gs1.org/voc/Product"
-				},
-				{
-					"@id": "http://schema.org/Product"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Product EOL handling"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
 
 		{
-			"@id": "https://gs1.org/voc/registryEntry",
+			"@id": "gs1:registryEntry",
 			"@type": [
-				"http://www.w3.org/2002/07/owl#ObjectProperty",
-				"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+				"owl:ObjectProperty",
+				"rdf:Property"
 			],
-			"http://www.w3.org/2000/01/rdf-schema#comment": [{
+			"rdfs:comment": [{
 				"@language": "en",
 				"@value": "A link to an entry in a register, such as a business register or register of locations. Such registers may provide alternative identifiers, such as official company numbers, LEIs, other location identifiers etc."
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#domain": [{
-					"@id": "http://www.w3.org/2002/07/owl#Thing"
+			"rdfs:domain": [{
+					"@id": "owl:Thing"
 				}
 			],
-			"http://www.w3.org/2000/01/rdf-schema#label": [{
+			"rdfs:label": [{
 				"@language": "en",
 				"@value": "Entry in a register"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#range": [{
-				"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+			"rdfs:range": [{
+				"@id": "xsd:anyURI"
 			}],
-			"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
-				"@id": "https://gs1.org/voc/linkType"
+			"rdfs:subPropertyOf": [{
+				"@id": "gs1:linkType"
 			}],
 			"sw:term_status": "proposed"
 		},
