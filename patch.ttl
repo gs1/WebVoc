@@ -1,0 +1,88 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dc1: <http://purl.org/dc/terms/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix gs1: <https://gs1.org/voc/> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rei: <http://www.w3.org/2004/06/rei#> .
+@prefix rsa: <http://www.w3.org/ns/auth/rsa#> .
+@prefix rss: <http://purl.org/rss/1.0/> .
+@prefix schema: <http://schema.org/> .
+@prefix sfn: <http://www.w3.org/ns/sparql#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix sioct: <http://rdfs.org/sioc/types#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sparql: <http://www.w3.org/ns/sparql#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix types: <http://rdfs.org/sioc/types#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+######################################################
+# This file contains terms that are informally proposed as additions to the GS1 Web Vocabulary.
+# See the repo's ReadMe for more
+######################################################
+
+
+gs1:productPassport a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product Passport"@en ;
+    rdfs:comment "A link to the product passport which provides information on a product’s origin, durability, composition, reuse, repair and dismantling possibilities, and end-of-life handling."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:handlingEndOfLife a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product EOL handling"@en ;
+    rdfs:comment "A link to the instructions for end-of-life handling as required by a product passport. The information will include instructions for reuse, repair, disassembly and recycling."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:reuseInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product re-use"@en ;
+    rdfs:comment "A link to the information on how to re-use a product when it changes from one user to the other (like how to deal with exiting certifications or warrantees, quality control instructions)"@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:repairInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product repair"@en ;
+    rdfs:comment "A link to the instructions for the repair of a product."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:disassemblyInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product disassembly"@en ;
+    rdfs:comment "A link to the instructions for dismantling/disassembly."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
+
+gs1:recyclingInfo a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Product recyling"@en ;
+    rdfs:comment "A link to the instructions for recycling a product."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
