@@ -1,25 +1,20 @@
 # GS1 Web Vocabulary - development site
 
-The current official version of the GS1 Web vocabualary is published at https://www.gs1.org/voc
+The current official version of the GS1 Web vocabualary is published at https://www.gs1.org/voc. It is an external extension to schema.org that allows further details about products and assets to be expressed using Linked Data technology. [gs1:Product](https://www.gs1.org/voc/Product) is semantically equivalent to [schema:Product](http://schema.org/Product). The GS1 Web vocabulary also defines subclasses of [gs1:Product](https://www.gs1.org/voc/Product)
 
-This repository is intended to encourage suggestions for improvements to the GS1 Web vocabulary. Please note the license terms (Apache 2.0).
+The GS1 Web vocabulary is released under an Apache 2.0 licence. A further licence statement is provided within the GS1 Web vocabulary files.
+ 
+This repository is intended to encourage suggestions for improvements to the GS1 Web Vocabulary. Please note the license terms (Apache 2.0). 
 
-The GS1 Web vocabulary is provided in two machine-interpretable formats - [Turtle](https://github.com/gs1/WebVoc/blob/master/gs1Voc_v1_3.ttl) and [JSON-LD](https://github.com/gs1/WebVoc/blob/master/gs1Voc_v1_3.jsonld).
+Files in this repository are arranged as follows.
 
-A browsable user interface will also be provided soon via the GitHub.io page for this repository, similar to the Web user interface provided at https://www.gs1.org/voc but using modern Vue.js code, still driven by the JSON-LD file.
-
-The GS1 Web vocabulary is released under an Apache 2.0 licence.  A further licence statement is provided within the GS1 Web vocabulary files.
-
-The GS1 Web vocabulary is an external extension to schema.org that allows further details about products and assets to be expressed using Linked Data technology.
-
-[gs1:Product](https://www.gs1.org/voc/Product) is semantically equivalent to [schema:Product](http://schema.org/Product)
-
-The GS1 Web vocabulary also defines subclasses of [gs1:Product](https://www.gs1.org/voc/Product)
-
-
-
-
-Most terms within the GS1 Web vocabulary can usually be classified as one of the following:
+ * An immutable copy of each ratified version of the GS1 Web Vocabulary is stored in a directory that gives the version number. 
+ * There is a copy of the current version provided in the root directory so there is a stable URI from which the current version can be obtained, in addition to the formally published version on gs1.org. In case of any discrepency, the formally published version at https://www.gs1.org/voc/ is authoritative. 
+ * There is a 'patch' file that just contains informally proposed terms.
+ * A copy of the current file plus the patch is also included.
+ * Each file is made available in both Turtle and JSON-LD. 
+ 
+ Most terms within the GS1 Web vocabulary can usually be classified as one of the following:
 
 * [Classes](#classes)
 * [Properties](#properties)
@@ -104,5 +99,3 @@ For example,
 [gs1:instructions](https://www.gs1.org/voc/instructions) is a typed link that is used to link to instructions related to the product, such as assembly instructions, usage tips etc.
 
 [Browse all link types defined within the GS1 Web vocabulary](https://www.gs1.org/voc/?show=linktypes)
-
-
