@@ -1,4 +1,4 @@
-payment@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cc: <http://creativecommons.org/ns#> .
 @prefix cert: <http://www.w3.org/ns/auth/cert#> .
 @prefix dbp: <http://dbpedia.org/property/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
