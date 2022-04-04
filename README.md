@@ -20,7 +20,7 @@ Files in this repository are arranged as follows.
 * [Properties](#properties)
 * [Code Lists](#code-lists)
 * [Defined values within Code Lists](#code-list-values)
-* [Link Types for use with resolvers for GS1 Digital Link URIs](#link-types-for-use-with-resolvers-for-gs1-digital-link-uris)
+* [Link Types](#link-types)
 
 
 ## Classes
@@ -82,8 +82,8 @@ For example,
 
 Its rdf:type is [gs1:SharpnessOfCheeseCode](https://www.gs1.org/voc/SharpnessOfCheeseCode), the code list to which it belongs.
 
-## Link Types for use with resolvers for GS1 Digital Link URIs
-The GS1 Web vocabulary recently introduced a group of additional properties that connect a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link) URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
+## Link Types
+The GS1 Web vocabulary introduced a group of additional properties that connect a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link) URI to a target resource URL, such as a product information page, instruction manual, related video, electronic patient information leaflet for a pharmaceutical etc.  
 
 Each link type property expresses a distinct kind of information resource found at the target resource URL.  
 
