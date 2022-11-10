@@ -25781,6 +25781,28 @@
         	"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
         		"@id": "https://gs1.org/voc/linkType"
         	}]
+        }, {
+        	"@id": "https://gs1.org/voc/sorting",
+        	"@type": ["http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "http://www.w3.org/2002/07/owl#ObjectProperty"],
+        	"http://www.w3.org/2000/01/rdf-schema#label": [{
+        		"@value": "Sorting",
+        		"@language": "en"
+        	}],
+        	"http://www.w3.org/2000/01/rdf-schema#comment": [{
+        		"@value": "A link to information related to sorting at a recycling centre or other reclamation process)",
+        		"@language": "en"
+        	}],
+        	"http://www.w3.org/2000/01/rdf-schema#domain": [{
+        		"@id": "http://schema.org/Product"
+        	}, {
+        		"@id": "https://gs1.org/voc/Product"
+        	}],
+        	"http://www.w3.org/2000/01/rdf-schema#range": [{
+        		"@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+        	}],
+        	"http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [{
+        		"@id": "https://gs1.org/voc/linkType"
+        	}]
         }
     ]
 }
