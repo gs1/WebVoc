@@ -9667,3 +9667,10 @@ gs1:recyclingInfo a rdf:Property, owl:ObjectProperty ;
     rdfs:domain schema:Product, gs1:Product ;
     rdfs:range xsd:anyURI ;
     rdfs:subPropertyOf gs1:linkType .
+
+gs1:sorting a rdf:Property, owl:ObjectProperty ;
+    rdfs:label "Sorting"@en ;
+    rdfs:comment "A link to information related to sorting at a recycling centre or other reclamation process."@en ;
+    rdfs:domain schema:Product, gs1:Product ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf gs1:linkType .
