@@ -6,15 +6,7 @@ The GS1 Web vocabulary is released under an Apache 2.0 licence. A further licenc
  
 This repository is intended to encourage suggestions for improvements to the GS1 Web Vocabulary. Please note the license terms (Apache 2.0). 
 
-Files in this repository are arranged as follows.
-
- * An immutable copy of each ratified version of the GS1 Web Vocabulary is stored in a directory that gives the version number. 
- * There is a copy of the current version provided in the root directory so there is a stable URI from which the current version can be obtained, in addition to the formally published version on gs1.org. In case of any discrepency, the formally published version at https://ref.gs1.org/voc/ is authoritative. 
- * There is a 'patch' file that just contains informally proposed terms.
- * A copy of the current file plus the patch is also included.
- * Each file is made available in both Turtle and JSON-LD. 
- 
- Most terms within the GS1 Web vocabulary can usually be classified as one of the following:
+Most terms within the GS1 Web vocabulary can usually be classified as one of the following:
 
 * [Classes](#classes)
 * [Properties](#properties)
