@@ -1,0 +1,944 @@
+{
+    "@context": [
+        {
+            "gs1": "http://ref.gs1.org/voc/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "pact": "https://gs1.github.io/WebVoc/pact/extension.jsonld#",
+            "schema": "http://schema.org/",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "dcterms": "http://purl.org/dc/terms/"
+        }
+    ],
+    "@graph": [
+    {
+        "@id": "pact:",
+        "@type" : [
+            "voaf:Vocabulary",
+            "owl:Ontology"
+        ],
+        "dcterms:contributors": "Jonathan Clark-Howard, Phil Archer",
+        "rdfs:isDefinedBy": {
+            "@id": "https://www.carbon-transparency.org/vocab/pact/3.0.2/"
+        },
+        "dcterms:issued:": {
+            "@type": "xsd:date",
+            "@value": "2025-11-18"
+        },
+        "dcterms:lastModified": {
+            "@type": "xsd:date",
+            "@value": "2025-11-20"
+        },
+
+
+        "pact:ProductCarbonFootprint": {
+            "@type": [
+                "rdfs:Class", 
+                "owl:Class"
+            ],
+            "rdfs:subClassOf": {
+                "@id": "gs1:CertificationDetails"
+            },
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "Product Carbon Footprint (PCF)"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "This class represents the whole of the PCF, which we define as a sub class of https://ref.gs1.org/voc/CertificationDetails"
+            }
+        },
+
+        "pact:previousVersion" : {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "Preceding PCF ID(s)"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "A given PCF may change over time, due to updates to the calculation. This is a list of IDs that reflect past versions of the current PCF, maintained by the solution."
+            },
+            "rdfs:range": {
+            "@id": "owl:Thing"
+            },
+            "rdfs:domain": {
+            "@id": "owl:Thing"
+            },
+            "@id" : "xsd:anyURI"
+        },
+
+        "pact:productMassPerDeclaredUnit" : {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "Product mass per declared unit"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The mass (in kg) of the product excluding packaging. The linked Quantitative value has two properties. The gs1:unitCode is PACT's 'declared unit' and gs1:value provides PACT's declaredUnitAmount. Multiplying those two provides the declaredUnitOfMeasurement."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:geographyRegionOrSubregion" : {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            },
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "Geography, region or sub-region"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The geographic representation of the PCF should be reported at different levels of granularity, depending on the preference of the data owner (e.g., at a plant, region, or country level). This attribute specifies the geographic region to which the PCF refers, i.e. Africa, Central Asia, etc."
+            }
+        },
+
+
+        "pact:pcfExcludingBiogenicUptake": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "PCF excluding biogenic uptake"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The PCF of the product including: all emissions from fossil sources; all biogenic and land management-related CH4,  N2O, non-biogenic CO2, HFCs and PFCs emissions;land management CO2 removals. Excluding: biogenic CO2 uptake."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:pcfIncludingBiogenicCO2Uptake": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "PCF including biogenic CO2 uptake"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The PCF of the product including: all emissions from fossil sources; all biogenic and land management-related CH4,  N2O, non-biogenic CO2, HFCs and PFCs emissions;land management CO2 removals; biogenic CO2 uptake."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:fossilGhgEmissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "fossil GHG emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The emissions from fossil sources as a result of fuel combustion, from fugitive emissions, and from process emissions."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:fossilCarbonContent": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "fossil carbon content"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The fossil carbon content of the product (mass of carbon)."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:biogenicCarbonContent": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "biogenic carbon content"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The biogenic carbon content of the product (mass of carbon)."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landUseChangeGhgEmissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land use change GHG emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "GHG emissions from land-use change, such as deforestation or conversion from natural forest to plantation forest, that cause carbon stock loss."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landUseChangeGhgEmissionsAndRemovals": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land use change GHG emissions and removals"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Net total of GHG emissions and removals from land-use change, typically from secondary data sets. Note the overlap with landUseChangeGhgEmissions."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landCarbonLeakage": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land carbon leakage"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Placeholder for indirect land use change causing displacement of food production, outside of value-chain."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landManagementFossilGhgEmissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land management fossil GHG emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Fossil CO2 and N2O emissions due to land management practices. Note: 'fossilGhgEmissions' already includes these emissions."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landManagementBiogenicCO2Emissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land management biogenic CO2 emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Biogenic CO2 emissions occurring due to recurring land management actions on land within the same land-use category."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landManagementBiogenicCO2Removals": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land management biogenic CO2 removals"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "CO2 removals resulting from a net increase in carbon stored in land-based carbon pools (e.g. reforestation and afforestation). Subject to traceability requirements."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:biogenicCO2Uptake": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "biogenic CO2 uptake"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Temporary CO2 uptake of biomass in the product at point of leaving factory gate."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:biogenicNonCO2Emissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "biogenic non-CO2 emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Biogenic Non-CO2 emissions (e.g. CH4 & N2O) caused by combustion of biofuels and composting of biowaste, including agricultural land management activities such as manure fertilization and  enteric emissions."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:technologicalCO2Removals": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "biogenic non-CO2 emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "CO2 removed directly from the atmosphere or via biogenic CO2 capture. Subject to reporting requirements."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:aircraftGhgEmissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "aircraft GHG emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The GHG emissions resulting from aircraft engine usage for the transport of the product, excluding radiative forcing."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:packagingGhgEmissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "packaging GHG emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Emissions resulting from the packaging of the product."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:outboundLogisticsGhgEmissions": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "outbound logistics GHG emissions"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Emissions resulting from outbound logistics."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:ccuCarbonContent": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "carbon capture & usage content"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The amount of captured carbon (both biogenic and fossil) during CCU (Carbon Capture & Usage) in the production."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:ccuOrigin": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "carbon capture & usage origin"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Information about the origin (fossil or biogenic) and path of the captured CO2 used in CCU, including the name and location of the capture facility. This information enhances transparency and traceability, enabling tracking of CO2 across the value chain."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }
+        },
+
+        "pact:ccuCalculationApproach": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "carbon capture & usage approach"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The calculation approach for CCU: Cut-off or Credit. See PACT Methodology for details."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }
+        },
+
+        "pact:ccuCreditCertification": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "carbon capture & usage credit certification"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "(Only for Credit Approach) a URL to documentation verifying the certification from an external bookkeeping scheme. This attribute ensures the reliability and avoids double counting of credits within the crediting system."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:CertificationDetails"
+            }
+        },
+
+        "pact:ccsTechnologicalCO2Capture": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "carbon capture & storage"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The amount of CO2 captured during Carbon Capture and Storage (CCS) in the production."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:ccsTechnologicalCO2Removals": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "carbon capture, removal & storage"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Technological CO2 removals with geologic storage (kgCO2 removed per declared unit) (biogenic only)"
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:landAreaOccupation": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "land area occupation"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Amount of agricultural land occupied in reporting year to produce the product."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "gs1:QuantitativeValue"
+            }
+        },
+
+        "pact:ipccCharacterizationFactors": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "IPCC characterization factors"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The IPCC (Intergovernmental Panel of Climate Change) frequently releases (GWP) global warming potential values for climate gases related to CO2. These GWP values are released in Assessment Reports (AR), which are numbered. The AR number can be used to track the age and accuracy of the GWP values used in reporting. This field indicates the IPCC version of the GWP characterization factors used in the calculation of the PCF. Per the PACT Methodology, the latest available characterization factor version shall be used, i.e., AR6. In the event this is not possible, include the set of all characterization factors used."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }
+        },
+
+        "pact:crossSectoralStandards": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "cross sectoral standards"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The cross-sectoral standards applied for calculating or allocating GHG emissions. If multiple apply, list all."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }
+        },
+
+        "pact:productOrSectorSpecificRules": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "product or sector-specific rules"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "A link to the product-specific or sector-specific rules applied"
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "pact:RulesApplied"
+            }
+        },
+
+        "pact:RulesApplied" : {
+            "@type": [
+                "rdfs:Class", 
+                "owl:Class"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "Rules Applied"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The product-specific or sector-specific rules applied for calculating or allocating GHG emissions. Sector specific guidance frameworks, such as Product Category Rules (PCR), are sets of rules for how to calculate and document Life Cycle Assessments. They provide product category specific guidance and enhance comparability between assessments of the different suppliers for the same category (sector). The same applies to Product Environmental Footprint Category Rules (PEFCR))."
+            }
+        },
+
+        "pact:rulesOperator" : {
+            "@type": [
+                "rdf:Property", 
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value" : "rules operator"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The operator of the rules applied when calculating the PCF"
+            },
+            "rdfs:domain": {
+            "@id": "pact:RulesApplied"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }   
+        },
+        "pact:ruleName" : {
+            "@type": [
+                "rdf:Property", 
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value" : "rule name"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The name of the rule applied by the operator"
+            },
+            "rdfs:domain": {
+            "@id": "pact:RulesApplied"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }   
+        },
+
+        "pact:boundaryProcessesDescription": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "boundary processes description"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Brief description of the processes attributable to each life cycle stage included in the PCF (e.g. electricity consumption for manufacturing), especially those that significantly contribute manufacturing steps of the product (including general description of used technologies)."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }
+        },
+
+        "pact:referencePeriodStart": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "reference period start"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The start date and time of the earliest activity data used to calculate the PCF. This start date can be considered the start of the period over which the given PCF is referencing, or reporting on."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:date"
+            }
+        },
+
+        "pact:referencePeriodEnd": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "reference period end"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "The end date and time of the latest activity data used to calculate the PCF. This end date can be considered the end of the period over which the given PCF is referencing, or reporting on."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:date"
+            }
+        },
+
+        "pact:allocationRulesDescription": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "allocation rules description"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Description of the allocation rules applied to the PCFs foreground data including an explanation of the underlying reasons (way of allocating all activities from your manufacturing steps to the declared unit)."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:string"
+            }
+        },
+
+        "pact:primaryDataShare": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "primary data share"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Share of primary data in the final PCF, calculated according to the PACT Methodology."
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "xsd:decimal"
+            }
+        },
+
+        "pact:dqi": {
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "dqi"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "A link to the Data Quality Indicators"
+            },
+            "rdfs:domain": {
+            "@id": "pact:ProductCarbonFootprint"
+            },
+            "rdfs:range": {
+            "@id": "pact:DataQualityIndicators"
+            }
+        },
+
+        "pact:DataQualityIndicators": {
+            "@type": [
+                "rdfs:Class",
+                "owl:Class"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "Data Quality Indicators"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Data Quality Indicators (dqi) in accordance with the PACT Methodology." 
+            }
+        },
+
+        "pact:technologicalDQR": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "technological DQR"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Quantitative data quality rating (DQR) based on the data quality matrix (See [=PACT Methodology=]), scoring the technological representativeness of the sources used for PCF calculation based on weighted average of all inputs. The value MUST be between 1 and 5 inclusive."
+            },
+            "rdfs:domain": {
+            "@id": "pact:DataQualityIndicators"
+            },
+            "rdfs:range": {
+            "@id": "xsd:decimal"
+            }
+        },
+
+        "pact:temporalDQR": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "temporal DQR"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Quantitative data quality rating (DQR) based on the data quality matrix (See [=PACT Methodology=]), scoring the temporal representativeness of the sources used for PCF calculation based on weighted average of all inputs. The value MUST be between 1 and 5 inclusive."
+            },
+            "rdfs:domain": {
+            "@id": "pact:DataQualityIndicators"
+            },
+            "rdfs:range": {
+            "@id": "xsd:decimal"
+            }
+        },
+
+        "pact:geographicalDQR": {
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "rdfs:label": {
+                "@language" : "en",
+                "@value": "geographical DQR"
+            },
+            "rdfs:comment" : {
+                "@language" : "en",
+                "@value" : "Quantitative data quality rating (DQR) based on the data quality matrix (See [=PACT Methodology=]), scoring the geographical representativeness of the sources used for PCF calculation based on weighted average of all inputs. The value MUST be between 1 and 5 inclusive."
+            },
+            "rdfs:domain": {
+            "@id": "pact:DataQualityIndicators"
+            },
+            "rdfs:range": {
+            "@id": "xsd:decimal"
+            }
+        }
+    }]
+}
