@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640.551px" height="835.878px" viewBox="0 44.122 640.551 835.878" enable-background="new 0 44.122 640.551 835.878"
+	 xml:space="preserve">
+<title>PACT Extension Context within GS1 Web Vocabulary</title>
+<text transform="matrix(1 0 0 1 66.8284 59.6357)" font-family="'Helvetica-Bold'" font-size="14">PACT Extension Context within GS1 Web Vocabulary</text>
+<path fill="#FFFFFF" stroke="#333333" stroke-width="0.5" d="M106.5,164.938H246.03c1.381,0,2.5,1.119,2.5,2.5v94.219
+	c0,1.381-1.119,2.5-2.5,2.5H106.5c-1.381,0-2.5-1.119-2.5-2.5v-94.219C104,166.057,105.119,164.938,106.5,164.938z"/>
+<text transform="matrix(1 0 0 1 143.071 185.4375)" font-family="'Helvetica'" font-size="13">gs1:Product</text>
+<line fill="none" stroke="#333333" stroke-width="0.5" x1="105" y1="196.938" x2="247.53" y2="196.938"/>
+<ellipse fill="none" stroke="#038048" cx="115" cy="208.84" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 123.9998 211.1475)" font-family="'Helvetica'" font-size="11">gtin : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="115" cy="221.645" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 123.9998 223.9531)" font-family="'Helvetica'" font-size="11">productName : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="115" cy="234.449" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 123.9998 236.7578)" font-family="'Helvetica'" font-size="11">brand : gs1:Organization</text>
+<text transform="matrix(1 0 0 1 123.9998 249.5625)" font-family="'Helvetica'" font-size="11">...</text>
+<line fill="none" stroke="#333333" stroke-width="0.5" x1="105" y1="256.156" x2="247.53" y2="256.156"/>
+<path fill="#FFFFFF" stroke="#333333" stroke-width="0.5" d="M365.096,164.938h208.515c1.381,0,2.5,1.119,2.5,2.5v94.219
+	c0,1.381-1.119,2.5-2.5,2.5H365.096c-1.381,0-2.5-1.119-2.5-2.5v-94.219C362.596,166.057,363.715,164.938,365.096,164.938z"/>
+<text transform="matrix(1 0 0 1 406.6936 185.4375)" font-family="'Helvetica'" font-size="13">gs1:CertificationDetails</text>
+<line fill="none" stroke="#333333" stroke-width="0.5" x1="363.596" y1="196.938" x2="575.111" y2="196.938"/>
+<ellipse fill="none" stroke="#038048" cx="373.596" cy="208.84" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 382.5959 211.1475)" font-family="'Helvetica'" font-size="11">certificationAgency : gs1:Organization</text>
+<ellipse fill="none" stroke="#038048" cx="373.596" cy="221.645" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 382.5959 223.9531)" font-family="'Helvetica'" font-size="11">certificationStandard : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="373.596" cy="234.449" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 382.5959 236.7578)" font-family="'Helvetica'" font-size="11">certificationValue : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="373.596" cy="247.254" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 382.5959 249.5625)" font-family="'Helvetica'" font-size="11">validityPeriod : xsd:dateTime</text>
+<line fill="none" stroke="#333333" stroke-width="0.5" x1="363.596" y1="256.156" x2="575.111" y2="256.156"/>
+<path fill="#FFFFFF" stroke="#333333" stroke-width="0.5" d="M333.596,323.938h272.066c1.38,0,2.5,1.119,2.5,2.5v413.531
+	c0,1.381-1.12,2.5-2.5,2.5H333.596c-1.381,0-2.5-1.119-2.5-2.5V326.438C331.096,325.057,332.215,323.938,333.596,323.938z"/>
+<text transform="matrix(1 0 0 1 391.1653 344.4375)" font-family="'Helvetica'" font-size="13">pact:ProductCarbonFootprint</text>
+<line fill="none" stroke="#333333" stroke-width="0.5" x1="332.096" y1="355.938" x2="607.162" y2="355.938"/>
+<text transform="matrix(1 0 0 1 337.0959 370.1475)" font-family="'Helvetica'" font-size="11">«pact:ProductCarbonFootprint»</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="397.449" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 399.7568)" font-family="'Helvetica'" font-size="11">pcfExcludingBiogenic : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="410.254" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 412.5625)" font-family="'Helvetica'" font-size="11">pcfIncludingBiogenic : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="423.059" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 425.3672)" font-family="'Helvetica'" font-size="11">fossilCarbonEmissions : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="435.863" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 438.1719)" font-family="'Helvetica'" font-size="11">biogenicCarbonEmissions : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="448.668" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 450.9766)" font-family="'Helvetica'" font-size="11">landUseEmissions : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="461.473" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 463.7812)" font-family="'Helvetica'" font-size="11">aircraftEmissions : gs1:QuantitativeValue</text>
+<line fill="none" stroke="#333333" x1="332.096" y1="383.145" x2="427.412" y2="383.145"/>
+<line fill="none" stroke="#333333" x1="332.096" y1="385.145" x2="427.412" y2="385.145"/>
+<text transform="matrix(1 0 0 1 427.4124 386.4521)" font-family="'Helvetica'" font-size="11">Emissions Data</text>
+<line fill="none" stroke="#333333" x1="511.846" y1="383.145" x2="607.162" y2="383.145"/>
+<line fill="none" stroke="#333333" x1="511.846" y1="385.145" x2="607.162" y2="385.145"/>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="491.082" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 493.3896)" font-family="'Helvetica'" font-size="11">biogenicCarbonContent : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="503.887" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 506.1943)" font-family="'Helvetica'" font-size="11">fossilCarbonContent : gs1:QuantitativeValue</text>
+<line fill="none" stroke="#333333" x1="332.096" y1="476.777" x2="426.193" y2="476.777"/>
+<line fill="none" stroke="#333333" x1="332.096" y1="478.777" x2="426.193" y2="478.777"/>
+<text transform="matrix(1 0 0 1 426.1926 480.085)" font-family="'Helvetica'" font-size="11">Carbon Content</text>
+<line fill="none" stroke="#333333" x1="513.065" y1="476.777" x2="607.162" y2="476.777"/>
+<line fill="none" stroke="#333333" x1="513.065" y1="478.777" x2="607.162" y2="478.777"/>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="533.496" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 535.8047)" font-family="'Helvetica'" font-size="11">declaredUnit : gs1:unitCode</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="546.301" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 548.6094)" font-family="'Helvetica'" font-size="11">unitaryProductAmount : gs1:QuantitativeValue</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="559.105" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 561.4141)" font-family="'Helvetica'" font-size="11">primaryDataShare : xsd:float</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="571.91" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 574.2188)" font-family="'Helvetica'" font-size="11">referencePeriodStart : xsd:date</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="584.715" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 587.0225)" font-family="'Helvetica'" font-size="11">referencePeriodEnd : xsd:date</text>
+<line fill="none" stroke="#333333" x1="332.096" y1="519.191" x2="427.235" y2="519.191"/>
+<line fill="none" stroke="#333333" x1="332.096" y1="521.191" x2="427.235" y2="521.191"/>
+<text transform="matrix(1 0 0 1 427.2346 522.5)" font-family="'Helvetica'" font-size="11">Metadata &amp; DQ</text>
+<line fill="none" stroke="#333333" x1="512.023" y1="519.191" x2="607.162" y2="519.191"/>
+<line fill="none" stroke="#333333" x1="512.023" y1="521.191" x2="607.162" y2="521.191"/>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="614.324" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 616.6328)" font-family="'Helvetica'" font-size="11">geographyRegionOrSubregion : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="627.129" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 629.4375)" font-family="'Helvetica'" font-size="11">geographyCountrySubdivision : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="639.934" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 642.2422)" font-family="'Helvetica'" font-size="11">crossSectoralStandardsUsed : xsd:string</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="652.738" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 655.0469)" font-family="'Helvetica'" font-size="11">productOrSectorSpecificRules : xsd:string</text>
+<line fill="none" stroke="#333333" x1="332.096" y1="600.02" x2="416.393" y2="600.02"/>
+<line fill="none" stroke="#333333" x1="332.096" y1="602.02" x2="416.393" y2="602.02"/>
+<text transform="matrix(1 0 0 1 416.3928 603.3271)" font-family="'Helvetica'" font-size="11">Geography &amp; Rules</text>
+<line fill="none" stroke="#333333" x1="522.865" y1="600.02" x2="607.162" y2="600.02"/>
+<line fill="none" stroke="#333333" x1="522.865" y1="602.02" x2="607.162" y2="602.02"/>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="682.348" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 684.6562)" font-family="'Helvetica'" font-size="11">boundaryProcessesDescription : rdf:langString</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="695.152" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 697.46)" font-family="'Helvetica'" font-size="11">exemptedEmissionsDescription : rdf:langString</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="707.957" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 710.2646)" font-family="'Helvetica'" font-size="11">exemptedEmissionsPercent : xsd:float</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="720.762" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 723.0703)" font-family="'Helvetica'" font-size="11">allocationRulesDescription : rdf:langString</text>
+<ellipse fill="none" stroke="#038048" cx="342.096" cy="733.566" rx="3" ry="3"/>
+<text transform="matrix(1 0 0 1 351.0959 735.875)" font-family="'Helvetica'" font-size="11">uncertaintyAssessmentDescription : rdf:langString</text>
+<line fill="none" stroke="#333333" x1="332.096" y1="668.043" x2="443.141" y2="668.043"/>
+<line fill="none" stroke="#333333" x1="332.096" y1="670.043" x2="443.141" y2="670.043"/>
+<text transform="matrix(1 0 0 1 443.1409 671.3516)" font-family="'Helvetica'" font-size="11">Boundary</text>
+<line fill="none" stroke="#333333" x1="496.116" y1="668.043" x2="607.162" y2="668.043"/>
+<line fill="none" stroke="#333333" x1="496.116" y1="670.043" x2="607.162" y2="670.043"/>
+<path fill="#FEFFDD" stroke="#181818" stroke-width="0.5" d="M6,79.938v25.133l0,0h166.5l4,59.667l4-59.667h166.237l0,0V89.938
+	l-10-10H6L6,79.938"/>
+<path fill="#FEFFDD" stroke="#181818" stroke-width="0.5" d="M336.738,79.938v10h10L336.738,79.938"/>
+<text transform="matrix(1 0 0 1 11.9998 97.0039)" font-family="'Helvetica'" font-size="13">A standard GS1 Product (e.g., identified by GTIN)</text>
+<path fill="#FEFFDD" stroke="#181818" stroke-width="0.5" d="M307.096,802.938v70.531l0,0h324.951l0,0v-60.531l-10-10H473.596
+	l-4-59.75l-4,59.75H307.096L307.096,802.938"/>
+<path fill="#FEFFDD" stroke="#181818" stroke-width="0.5" d="M622.047,802.938v10h10L622.047,802.938"/>
+<text transform="matrix(1 0 0 1 313.0959 820.0039)" font-family="'Helvetica'" font-size="13">Because PCF inherits from CertificationDetails,</text>
+<text transform="matrix(1 0 0 1 313.0959 835.1367)" font-family="'Helvetica'" font-size="13">a gs1:Product can link directly to a</text>
+<text transform="matrix(1 0 0 1 313.0959 850.2695)" font-family="'Helvetica'" font-size="13">pact:ProductCarbonFootprint instance</text>
+<text transform="matrix(1 0 0 1 313.0959 865.4023)" font-family="'Helvetica'" font-size="13">using the standard &apos;gs1:certification&apos; property.</text>
+<path id="gs1_Product-to-gs1_CertificationDetails" fill="none" stroke="#333333" d="M249.37,214.938c11.33,0,98.65,0,110.551,0"/>
+<polygon fill="#333333" stroke="#333333" points="362.516,214.938 353.516,210.938 357.516,214.938 353.516,218.938 "/>
+<text transform="matrix(1 0 0 1 257.8743 209.9487)" font-family="'Helvetica'" font-size="13">gs1:certification</text>
+<text transform="matrix(1 0 0 1 287.6379 231.2085)" font-family="'Helvetica'" font-size="13">0..*</text>
+<path id="gs1_CertificationDetails-backto-pact_ProductCarbonFootprint" fill="none" stroke="#333333" d="M469.596,282.277
+	c0,17.18,0,19.64,0,41.5"/>
+<polygon fill="none" stroke="#333333" points="469.596,264.277 463.596,282.277 475.596,282.277 "/>
+<text transform="matrix(1 0 0 1 367.5959 303.4922)" font-family="'Helvetica'" font-size="13">rdfs:subClassOf</text>
+</svg>
